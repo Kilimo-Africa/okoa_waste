@@ -10,6 +10,9 @@ import "./landing.css";
 // import Fashion from "../images/fashion.jpg";
 // import { LazyLoadImage } from "react-lazy-load-image-component";
 
+import Organic from "../images/organic.jpg";
+import Paradise from "../images/paradise2.jpg";
+
 export default function Landing() {
   return (
     <main id="landing">
@@ -22,11 +25,11 @@ export default function Landing() {
 
       <section id="images">
         <div className="recycle-image" id="recycle-image1">
-          <img  alt="dumpsite1" />
+          <img src={Organic} alt="dumpsite1" />
         </div>
         <div id="recycle-icon"></div>
         <div className="recycle-image" id="recycle-image2">
-          <img  alt="dumpsite1" />
+          <img src={Paradise} alt="dumpsite1" />
         </div>
       </section>
 
@@ -110,7 +113,7 @@ export default function Landing() {
 
           <div>
             <span id="image">
-              <img  alt="agric" />
+              <img alt="agric" />
             </span>
             <span id="title">Fashion</span>
             <span id="content">
@@ -128,7 +131,7 @@ export default function Landing() {
 
           <div>
             <span id="image">
-              <img  alt="agric" />
+              <img alt="agric" />
             </span>
             <span id="title">Steel</span>
             <span id="content">
@@ -139,7 +142,7 @@ export default function Landing() {
       </section>
 
       <section id="image-tag">
-        <img  alt="tag" />
+        <img alt="tag" />
       </section>
 
       <section id="process">
