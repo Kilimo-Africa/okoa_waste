@@ -16,14 +16,12 @@ export default function Landing() {
       <section id="tagline">
         <span id="title">Towards a greener Nation</span>
         <span id="paragraph">
-          There should be millions of people striving towards zero waste <br />
-          rather than a select few who achieve it perfectly.
+          We close the gap between organic waste and organic fertilizers <br />
         </span>
       </section>
 
       <section id="images">
         <div className="recycle-image" id="recycle-image1">
-          {/* <LazyLoadImage src={Dumpsite1} alt="dumpsite1" effect="blur" /> */}
           <img src={Dumpsite1} alt="dumpsite1" />
         </div>
         <div id="recycle-icon"></div>
