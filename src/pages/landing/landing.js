@@ -5,6 +5,7 @@ import "./landing.css";
 // import Organic from "../images/organic.jpg";
 // import Paradise from "../images/paradise2.jpg";
 // import Mountain from "../images/mountain.jpg";
+import Recycle from "../images/recycle.svg";
 
 export default function Landing() {
   return (
@@ -17,13 +18,11 @@ export default function Landing() {
       </section>
 
       <section id="images">
-        <div className="recycle-image" id="recycle-image1">
-
+        <div className="recycle-image" id="recycle-image1"></div>
+        <div id="recycle-icon">
+          <img src={Recycle} alt="recycle" />
         </div>
-        <div id="recycle-icon"></div>
-        <div className="recycle-image" id="recycle-image2">
-         
-        </div>
+        <div className="recycle-image" id="recycle-image2"></div>
       </section>
 
       <section id="impact">
