@@ -30,20 +30,20 @@ export default function Landing() {
         <div id="impact-content">
           <div>
             <span className="span-image" id="spa1"></span>
-            <span className="span-number">500</span>
-            <span className="span-word">Waste Collectors</span>
+            <span className="span-number">10,000+</span>
+            <span className="span-word">Households</span>
           </div>
 
           <div>
             <span className="span-image" id="spa3"></span>
-            <span className="span-number">500</span>
-            <span className="span-word">Industries Served</span>
+            <span className="span-number">300 Ts</span>
+            <span className="span-word">Organic Waste Collected</span>
           </div>
 
           <div>
             <span className="span-image" id="spa4"></span>
-            <span className="span-number">500</span>
-            <span className="span-word">Waste recycled</span>
+            <span className="span-number">5,000+</span>
+            <span className="span-word">Farmers</span>
           </div>
         </div>
       </section>
@@ -51,15 +51,15 @@ export default function Landing() {
       <section id="assistance">
         <div id="assistance-title">
           <span id="title">How may we be of assistance?</span>
-          <span id="par">We collect and recycle solid waste</span>
+          <span id="par">We are all things organic.</span>
         </div>
         <div id="assistance-content">
           <div id="picking">
             <span id="title">Dispose</span>
             <span id="wording">
               <span>
-                We collect waste all over Nairobi the country, our goal is to
-                enable proper waste disposal options are available to you.
+                Whether you are an individual or a family we collect solid waste
+                from you free of charge and pay you.
               </span>
             </span>
           </div>
