@@ -36,8 +36,8 @@ export default function Landing() {
 
           <div>
             <span className="span-image" id="spa3"></span>
-            <span className="span-number">300 Ts</span>
-            <span className="span-word">Organic Waste Collected</span>
+            <span className="span-number">300</span>
+            <span className="span-word">Tonnes of waste Collected</span>
           </div>
 
           <div>
@@ -77,7 +77,7 @@ export default function Landing() {
 
       <section id="solutions">
         <div id="heading">
-          <span id="title">Solutions for various Industries</span>
+          <span id="title">We are everywhere</span>
           <span id="word">
             Whatever your industry does be sure that we have a solution for you
             <br />
