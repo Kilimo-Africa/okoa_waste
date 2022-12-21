@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import "./landing.css";
 import Dumpsite1 from "../images/dumpsite1.jpg";
 import Paradise2 from "../images/paradise2.jpg";
@@ -202,9 +202,9 @@ export default function Landing() {
             collection from us.
           </span>
 
-          <Link to="/auth" id="redirect-url">
+          <button to="/auth" id="redirect-url">
             Request for waste Collection
-          </Link>
+          </button>
         </div>
       </section>
     </main>
