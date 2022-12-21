@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+* {
+  font-family: "Mulish", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  width: 100%;
+  height: max-content;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #d8ffc0;
+  color: #172e08;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#root {
+  width: 90%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+main {
+  min-height: 46vw;
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 20vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  height: 5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+header > * {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  color: #172e08;
+}
+
+#header-logo {
+  height: 100%;
+  width: 25%;
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+#header-info {
+  font-size: 1.5vw;
+  height: 70%;
+  width: 45%;
+}
+
+#header-forms {
+  font-size: 2vw;
+  height: 100%;
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#header-forms > a {
+  width: 45%;
+  background-color: #172e08;
+  height: 70%;
+  color: #d8ffc0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 0.2vw;
+}
+
+#header-forms :hover {
+  color: #172e08;
+  border: double #172e08 0.5vw;
+  background-color: #d8ffc0;
 }
