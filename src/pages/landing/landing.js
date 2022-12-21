@@ -1,13 +1,13 @@
 import React from "react";
 // import { useNavigate } from "react-router-dom";
 import "./landing.css";
-import Dumpsite1 from "../images/dumpsite1.jpg";
-import Paradise2 from "../images/paradise2.jpg";
-import Tagimage from "../images/Recycle1.svg";
-import Paper from "../images/paper.jpg";
-import Agric from "../images/agriculture.jpg";
-import Steel from "../images/steel.jpg";
-import Fashion from "../images/fashion.jpg";
+// import Dumpsite1 from "../images/dumpsite1.jpg";
+// import Paradise2 from "../images/paradise2.jpg";
+// import Tagimage from "../images/Recycle1.svg";
+// import Paper from "../images/paper.jpg";
+// import Agric from "../images/agriculture.jpg";
+// import Steel from "../images/steel.jpg";
+// import Fashion from "../images/fashion.jpg";
 // import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Landing() {
@@ -22,11 +22,11 @@ export default function Landing() {
 
       <section id="images">
         <div className="recycle-image" id="recycle-image1">
-          <img src={Dumpsite1} alt="dumpsite1" />
+          <img  alt="dumpsite1" />
         </div>
         <div id="recycle-icon"></div>
         <div className="recycle-image" id="recycle-image2">
-          <img src={Paradise2} alt="dumpsite1" />
+          <img  alt="dumpsite1" />
         </div>
       </section>
 
@@ -100,7 +100,7 @@ export default function Landing() {
         <div id="content">
           <div>
             <span id="image">
-              <img src={Agric} alt="agric" />
+              <img alt="agric" />
             </span>
             <span id="title">Agriculture</span>
             <span id="content">
@@ -110,7 +110,7 @@ export default function Landing() {
 
           <div>
             <span id="image">
-              <img src={Fashion} alt="agric" />
+              <img  alt="agric" />
             </span>
             <span id="title">Fashion</span>
             <span id="content">
@@ -120,7 +120,7 @@ export default function Landing() {
 
           <div>
             <span id="image">
-              <img src={Paper} alt="agric" />
+              <img alt="agric" />
             </span>
             <span id="title">Paper</span>
             <span id="content">Providing pulp for leading publishers.</span>
@@ -128,7 +128,7 @@ export default function Landing() {
 
           <div>
             <span id="image">
-              <img src={Steel} alt="agric" />
+              <img  alt="agric" />
             </span>
             <span id="title">Steel</span>
             <span id="content">
@@ -139,7 +139,7 @@ export default function Landing() {
       </section>
 
       <section id="image-tag">
-        <img src={Tagimage} alt="tag" />
+        <img  alt="tag" />
       </section>
 
       <section id="process">
