@@ -163,10 +163,7 @@ export default function Landing() {
             <span className="process-icon"></span>
             <span className="process-label">Distribution</span>
           </div>
-          {/* <div className="down">
-            <span className="process-label">Recycling</span>
-            <span className="process-icon"></span>
-          </div> */}
+          
         </div>
       </section>
 
