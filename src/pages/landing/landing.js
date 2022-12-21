@@ -79,7 +79,7 @@ export default function Landing() {
 
       <section id="solutions">
         <div id="heading">
-          <span id="title">We are everywhere</span>
+          <span id="title">We serve everyone</span>
           <span id="word">
             Whatever your industry does be sure that we have a solution for you
             <br />
@@ -90,7 +90,7 @@ export default function Landing() {
         <div id="content">
           <div>
             <span id="image">
-              <img alt="agric" />
+              <img src={Agriculture} alt="agric" />
             </span>
             <span id="title">Agriculture</span>
             <span id="content">
@@ -100,7 +100,7 @@ export default function Landing() {
 
           <div>
             <span id="image">
-              <img alt="agric" />
+              <img src={Fashion} alt="agric" />
             </span>
             <span id="title">Fashion</span>
             <span id="content">
@@ -110,7 +110,7 @@ export default function Landing() {
 
           <div>
             <span id="image">
-              <img alt="agric" />
+              <img src={Paper} alt="agric" />
             </span>
             <span id="title">Paper</span>
             <span id="content">Providing pulp for leading publishers.</span>
@@ -118,7 +118,7 @@ export default function Landing() {
 
           <div>
             <span id="image">
-              <img alt="agric" />
+              <img src={Steel} alt="agric" />
             </span>
             <span id="title">Steel</span>
             <span id="content">
@@ -138,7 +138,7 @@ export default function Landing() {
           <span id="word">
             Learn what happens to your waste from collection
             <br />
-            to recycling and reusing.
+            to decomposing.
           </span>
         </div>
 
