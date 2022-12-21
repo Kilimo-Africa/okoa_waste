@@ -2,9 +2,9 @@ import React from "react";
 // import { useNavigate } from "react-router-dom";
 import "./landing.css";
 
-import Organic from "../images/organic.jpg";
-import Paradise from "../images/paradise2.jpg";
-import Mountain from "../images/mountain.jpg";
+// import Organic from "../images/organic.jpg";
+// import Paradise from "../images/paradise2.jpg";
+// import Mountain from "../images/mountain.jpg";
 
 export default function Landing() {
   return (
@@ -19,10 +19,12 @@ export default function Landing() {
       <section id="images">
         <div className="recycle-image" id="recycle-image1">
           {/* <img src={Mountain} alt="dumpsite1" /> */}
+          {/* Cleaner Africa */}
         </div>
         <div id="recycle-icon"></div>
         <div className="recycle-image" id="recycle-image2">
           {/* <img src={Paradise} alt="dumpsite1" /> */}
+          {/* Sustainable farming. */}
         </div>
       </section>
 
@@ -33,12 +35,6 @@ export default function Landing() {
             <span className="span-image" id="spa1"></span>
             <span className="span-number">500</span>
             <span className="span-word">Waste Collectors</span>
-          </div>
-
-          <div>
-            <span className="span-image" id="spa2"></span>
-            <span className="span-number">500</span>
-            <span className="span-word">Proffesional Workers</span>
           </div>
 
           <div>
