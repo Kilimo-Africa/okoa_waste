@@ -1,17 +1,10 @@
 import React from "react";
 // import { useNavigate } from "react-router-dom";
 import "./landing.css";
-// import Dumpsite1 from "../images/dumpsite1.jpg";
-// import Paradise2 from "../images/paradise2.jpg";
-// import Tagimage from "../images/Recycle1.svg";
-// import Paper from "../images/paper.jpg";
-// import Agric from "../images/agriculture.jpg";
-// import Steel from "../images/steel.jpg";
-// import Fashion from "../images/fashion.jpg";
-// import { LazyLoadImage } from "react-lazy-load-image-component";
 
 import Organic from "../images/organic.jpg";
 import Paradise from "../images/paradise2.jpg";
+import Mountain from "../images/mountain.jpg";
 
 export default function Landing() {
   return (
@@ -25,7 +18,7 @@ export default function Landing() {
 
       <section id="images">
         <div className="recycle-image" id="recycle-image1">
-          <img src={Organic} alt="dumpsite1" />
+          <img src={Mountain} alt="dumpsite1" />
         </div>
         <div id="recycle-icon"></div>
         <div className="recycle-image" id="recycle-image2">
