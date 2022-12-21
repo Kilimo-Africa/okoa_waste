@@ -18,11 +18,11 @@ export default function Landing() {
 
       <section id="images">
         <div className="recycle-image" id="recycle-image1">
-          <img src={Mountain} alt="dumpsite1" />
+          {/* <img src={Mountain} alt="dumpsite1" /> */}
         </div>
         <div id="recycle-icon"></div>
         <div className="recycle-image" id="recycle-image2">
-          <img src={Paradise} alt="dumpsite1" />
+          {/* <img src={Paradise} alt="dumpsite1" /> */}
         </div>
       </section>
 

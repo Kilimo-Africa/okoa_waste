@@ -64,6 +64,8 @@
 .recycle-image {
   width: 45%;
   height: 90%;
+  background-position: center;
+  background-size: cover;
 }
 
 .recycle-image > img {
@@ -86,6 +88,7 @@
   border-top-left-radius: 2vw;
   border-bottom-left-radius: 2vw;
   border-right: 1vw solid #d8ffc0;
+  background-image: url("../images/mountain.jpg");
 }
 
 #recycle-image2 {
@@ -93,6 +96,7 @@
   border-top-right-radius: 2vw;
   border-bottom-right-radius: 2vw;
   border-left: 1vw solid #d8ffc0;
+  background-image: url("../images/paradise2.jpg");
 }
 
 .span-image {
