@@ -2,10 +2,12 @@ import React from "react";
 // import { useNavigate } from "react-router-dom";
 import "./landing.css";
 
-// import Organic from "../images/organic.jpg";
-// import Paradise from "../images/paradise2.jpg";
-// import Mountain from "../images/mountain.jpg";
 import Recycle from "../images/recycle.svg";
+import Recycle1 from "../images/Recycle.svg";
+import Steel from "../images/steel.jpg";
+import Fashion from "../images/fashion.jpg";
+import Agriculture from "../images/agriculture.jpg";
+import Paper from "../images/paper.jpg";
 
 export default function Landing() {
   return (
@@ -67,8 +69,8 @@ export default function Landing() {
             <span id="title">Compost</span>
             <span id="wording">
               <span>
-                Whether a small or large scale farmer ensure you get
-                quality and quantity organic fertilizer from us.
+                Whether a small or large scale farmer ensure you get quality and
+                quantity organic fertilizer from us.
               </span>
             </span>
           </div>
@@ -127,7 +129,7 @@ export default function Landing() {
       </section>
 
       <section id="image-tag">
-        <img alt="tag" />
+        <img src={Recycle1} alt="tag" />
       </section>
 
       <section id="process">
