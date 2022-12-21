@@ -55,21 +55,20 @@ export default function Landing() {
         </div>
         <div id="assistance-content">
           <div id="picking">
-            <span id="title">Dispose</span>
+            <span id="title">Waste</span>
             <span id="wording">
               <span>
-                Whether you are an individual or a family we collect solid waste
+                Whether you are an individual or a family we collect solid Waste
                 from you free of charge and pay you.
               </span>
             </span>
           </div>
           <div id="collection">
-            <span id="title">Collect</span>
+            <span id="title">Compost</span>
             <span id="wording">
               <span>
-                Collect Raw materials form us for recycling,we trust that you
-                will keep the dream alive by handling the provided materials
-                approprIately
+                Whether a small or large scale farmer ensure you get
+                quality and quantity organic fertilizer from us.
               </span>
             </span>
           </div>
