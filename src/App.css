@@ -4,7 +4,14 @@
 * {
   font-family: "Mulish", sans-serif;
 }
-
+#root {
+  width: 90%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
 body {
   width: 100%;
   height: max-content;
@@ -18,15 +25,6 @@ body {
 
 button {
   cursor: pointer;
-}
-
-#root {
-  width: 90%;
-  height: max-content;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
 }
 
 main {
