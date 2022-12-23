@@ -2,6 +2,7 @@ import "./App.css";
 import Landing from "./pages/landing/landing";
 import Navbar from "./pages/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Signup from "./pages/auth/signup";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Landing />} />
+          <Route path="/signup" element={<Signup />} />
         </Routes>
       </BrowserRouter>
     </div>
