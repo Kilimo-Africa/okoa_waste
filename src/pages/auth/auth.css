@@ -19,12 +19,3 @@
   border: thin solid #172e08;
 }
 
-.form-image {
-  height: 100%;
-  border: thin solid #172e08;
-  background-color: #ffffff;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url("../images/agriculture.jpg");
-}
