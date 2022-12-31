@@ -3,11 +3,12 @@ import "./auth.css";
 export default function Signup() {
   return (
     <main className="form-main">
-      <div className="form-image">
+      <div className="form-image"></div>
+      <form className="form">
+        <span>Join Okoa</span>
         <section id="form-section1"></section>
         <section id="form-section2"></section>
-      </div>
-      <form className="form"></form>
+      </form>
     </main>
   );
 }
