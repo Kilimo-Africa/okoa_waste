@@ -11,17 +11,17 @@ export default function Signup() {
           <div id="form-section1-container">
             <label>
               Disposer
-              <input type="radio" />
+              <input type="radio" className="radio" />
             </label>
 
             <label>
               Farmer
-              <input type="radio" />
+              <input type="radio" className="radio" />
             </label>
 
             <label>
               Partner
-              <input type="radio" />
+              <input type="radio" className="radio" />
             </label>
           </div>
           <div id="form-section1-links">
