@@ -38,7 +38,13 @@ export default function Signup() {
           </div>
         </section>
 
-        <section id="form-section2"></section>
+        <section id="form-section2">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </section>
       </form>
     </main>
   );
