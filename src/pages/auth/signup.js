@@ -49,7 +49,9 @@ export default function Signup() {
             <input type="text" placeholder="Second Name" />
           </div>
 
-          <span></span>
+          <div id="signup-email">
+            <input type="text" placeholder="E-Mail address" />
+          </div>
           <span></span>
           <span></span>
         </section>

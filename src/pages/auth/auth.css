@@ -172,4 +172,27 @@
 
 input:focus {
   outline: thin solid #d8ffc0;
+  background-color: #d8ffc0;
+}
+
+#signup-email {
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#signup-email > * {
+  width: 100%;
+  height: 60%;
+  border-radius: 8vw;
+  border: thin solid #ffffff;
+  display: flex;
+  color: #172e08;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5vw;
 }
