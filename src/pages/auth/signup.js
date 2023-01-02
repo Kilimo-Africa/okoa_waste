@@ -46,7 +46,7 @@ export default function Signup() {
           </div>
 
           <span id="roles-divs">
-            <span id="role-desc">How would you like to use Okoa</span>
+            <span id="role-desc">How would you like to use Okoa?</span>
             <select id="roles">
               <option value="2">Dispose waste and earn from it.</option>
               <option value="3">Buy compost and sell your produce.</option>
