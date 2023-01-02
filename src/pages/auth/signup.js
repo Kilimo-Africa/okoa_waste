@@ -1,15 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import "./auth.css";
+
 export default function Signup() {
-  function displayHome() {
-    let section1 = document.querySelector("#form-section1");
-    let section2 = document.querySelector("#form-section2");
+  let [role, setRole] = useState("");
 
-    section2.style.backgroundcolor = "red";
-    console.log(section2);
+  function handleSelect(event) {
+    setRole(event.target.value);
   }
-
   return (
     <main className="form-main">
       <div className="form-image"></div>
@@ -47,7 +46,7 @@ export default function Signup() {
 
           <span id="roles-divs">
             <span id="role-desc">How would you like to use Okoa?</span>
-            <select id="roles">
+            <select id="roles" onChange={handleSelect}>
               <option value="2">Dispose waste and earn from it.</option>
               <option value="3">Buy compost and sell your produce.</option>
               <option value="4">Partner with us</option>

@@ -124,7 +124,7 @@
 
 #form-section2 > * {
   width: 90%;
-  border: thin solid #d8ffc0;
+  /* border: thin solid #d8ffc0; */
 }
 
 #device-auth {
