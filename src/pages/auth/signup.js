@@ -56,12 +56,27 @@ export default function Signup() {
           </span>
 
           <div id="signup-email">
-            <input type="text" placeholder="E-Mail address" />
+            <input
+              type="text"
+              placeholder="E-Mail address"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
           </div>
 
           <div id="signup-names">
-            <input type="text" placeholder="Password" />
-            <input type="text" placeholder="Confirm Password" />
+            <input
+              type="text"
+              placeholder="Password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
+            <input
+              type="text"
+              placeholder="Confirm Password"
+              value={password_c}
+              onChange={(e) => setPasswordC(e.target.value)}
+            />
           </div>
 
           <div id="signup-button">
