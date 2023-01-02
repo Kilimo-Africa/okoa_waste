@@ -44,7 +44,11 @@ export default function Signup() {
             <span>Google</span>
           </div>
 
-          <span></span>
+          <div id="signup-names">
+            <input type="text" placeholder="First Name" />
+            <input type="text" placeholder="Second Name" />
+          </div>
+
           <span></span>
           <span></span>
           <span></span>
