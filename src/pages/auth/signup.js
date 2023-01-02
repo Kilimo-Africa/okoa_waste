@@ -5,38 +5,36 @@ import "./auth.css";
 
 export default function Signup() {
   let [role, setRole] = useState("");
+  let [email, setEmail] = useState("");
+  let [password, setPassword] = useState("");
+  let [password_c, setPasswordC] = useState("");
 
   function handleSelect(event) {
     setRole(event.target.value);
   }
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    let user = {
+      role_id: role,
+      email,
+      password,
+      password_confirmation: password_c,
+    };
+    
+    fetch("http://localhost:3000", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+  }
+
   return (
     <main className="form-main">
       <div className="form-image"></div>
       <form className="form">
         <span>Join Okoa</span>
-        <section id="form-section1">
-          <div id="form-section1-container">
-            <label>
-              Disposer
-              <input type="radio" className="radio" />
-            </label>
-
-            <label>
-              Farmer
-              <input type="radio" className="radio" />
-            </label>
-
-            <label>
-              Partner
-              <input type="radio" className="radio" />
-            </label>
-          </div>
-          <div id="form-section1-links">
-            <Link className="links" onClick={displayHome}>
-              Next
-            </Link>
-          </div>
-        </section>
 
         <section id="form-section2">
           <div id="device-auth">
@@ -45,8 +43,9 @@ export default function Signup() {
           </div>
 
           <span id="roles-divs">
-            <span id="role-desc">How would you like to use Okoa?</span>
+            {/* <span id="role-desc">How would you like to use Okoa?</span> */}
             <select id="roles" onChange={handleSelect}>
+              <option>Select how you would like to use Okoa.</option>
               <option value="2">Dispose waste and earn from it.</option>
               <option value="3">Buy compost and sell your produce.</option>
               <option value="4">Partner with us</option>
@@ -67,9 +66,7 @@ export default function Signup() {
           </div>
 
           <div id="signup-links">
-            <Link to="" onClick={displayHome}>
-              Back
-            </Link>
+            <Link to="">Back</Link>
             <Link to="">Login</Link>
           </div>
         </section>
