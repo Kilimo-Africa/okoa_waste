@@ -1,5 +1,5 @@
 import React from "react";
-import { json, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import "./auth.css";
 
@@ -32,7 +32,6 @@ export default function Signup() {
       .then((res) => res.json())
       .then((data) => console.log(data));
 
-    console.log(role, email, password, password_c);
   }
 
   return (
@@ -59,7 +58,7 @@ export default function Signup() {
 
           <div id="signup-email">
             <input
-              type="text"
+              type="email"
               placeholder="E-Mail address"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -68,13 +67,13 @@ export default function Signup() {
 
           <div id="signup-names">
             <input
-              type="text"
+              type="password"
               placeholder="Password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
             <input
-              type="text"
+              type="password"
               placeholder="Confirm Password"
               value={password_c}
               onChange={(e) => setPasswordC(e.target.value)}
