@@ -57,7 +57,9 @@ export default function Signup() {
             <Link to="">Back</Link>
             <Link to="">Login</Link>
           </div>
-          <span></span>
+          <div id="signup-button">
+            <button type="submit">Join Okoa</button>
+          </div>
         </section>
       </form>
     </main>
