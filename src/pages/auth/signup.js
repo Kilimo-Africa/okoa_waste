@@ -22,7 +22,7 @@ export default function Signup() {
       password_confirmation: password_c,
     };
 
-    fetch("http://localhost:3000", {
+    fetch("http://localhost:3000/users", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -31,12 +31,14 @@ export default function Signup() {
     })
       .then((res) => res.json())
       .then((data) => console.log(data));
+
+    console.log(role, email, password, password_c);
   }
 
   return (
     <main className="form-main">
       <div className="form-image"></div>
-      <form className="form">
+      <form className="form" onSubmit={handleSubmit}>
         <span>Join Okoa</span>
 
         <section id="form-section2">
