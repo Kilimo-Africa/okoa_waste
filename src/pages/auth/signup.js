@@ -2,9 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./auth.css";
 export default function Signup() {
+  function displayHome() {
+    let section1 = document.querySelector("#form-section1");
+    let section2 = document.querySelector("#form-section2");
 
-  function displayHome() {}
-  
+    console.log(section1, section2);
+  }
+
   return (
     <main className="form-main">
       <div className="form-image"></div>
@@ -28,7 +32,9 @@ export default function Signup() {
             </label>
           </div>
           <div id="form-section1-links">
-            <Link className="links">Next</Link>
+            <Link className="links" onClick={displayHome}>
+              Next
+            </Link>
           </div>
         </section>
 
