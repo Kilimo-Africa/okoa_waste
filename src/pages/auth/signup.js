@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { json, Link } from "react-router-dom";
 import { useState } from "react";
 import "./auth.css";
 
@@ -21,13 +21,16 @@ export default function Signup() {
       password,
       password_confirmation: password_c,
     };
-    
+
     fetch("http://localhost:3000", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-    });
+      body: JSON.stringify(user),
+    })
+      .then((res) => res.json())
+      .then((data) => console.log(data));
   }
 
   return (
