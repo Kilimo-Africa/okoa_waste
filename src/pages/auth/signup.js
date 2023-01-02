@@ -6,7 +6,8 @@ export default function Signup() {
     let section1 = document.querySelector("#form-section1");
     let section2 = document.querySelector("#form-section2");
 
-    console.log(section1, section2);
+    section2.style.backgroundcolor = "red";
+    console.log(section2);
   }
 
   return (
@@ -44,6 +45,14 @@ export default function Signup() {
             <span>Google</span>
           </div>
 
+          <span id="roles-divs">
+            <select id="roles">
+              <option value="2">Disposer</option>
+              <option value="3">Farmer</option>
+              <option value="4">Partner</option>
+            </select>
+          </span>
+
           <div id="signup-email">
             <input type="text" placeholder="E-Mail address" />
           </div>
@@ -58,7 +67,9 @@ export default function Signup() {
           </div>
 
           <div id="signup-links">
-            <Link to="">Back</Link>
+            <Link to="" onClick={displayHome}>
+              Back
+            </Link>
             <Link to="">Login</Link>
           </div>
         </section>
