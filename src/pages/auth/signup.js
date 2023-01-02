@@ -39,7 +39,11 @@ export default function Signup() {
         </section>
 
         <section id="form-section2">
-          <span></span>
+          <div id="device-auth">
+            <span>Facebook</span>
+            <span>Google</span>
+          </div>
+
           <span></span>
           <span></span>
           <span></span>
