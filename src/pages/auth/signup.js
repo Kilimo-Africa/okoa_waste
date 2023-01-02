@@ -44,13 +44,13 @@ export default function Signup() {
             <span>Google</span>
           </div>
 
-          <div id="signup-names">
-            <input type="text" placeholder="First Name" />
-            <input type="text" placeholder="Second Name" />
-          </div>
-
           <div id="signup-email">
             <input type="text" placeholder="E-Mail address" />
+          </div>
+
+          <div id="signup-names">
+            <input type="text" placeholder="Password" />
+            <input type="text" placeholder="Confirm Password" />
           </div>
 
           <div id="signup-links">
