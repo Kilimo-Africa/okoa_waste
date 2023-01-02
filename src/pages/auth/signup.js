@@ -52,7 +52,11 @@ export default function Signup() {
           <div id="signup-email">
             <input type="text" placeholder="E-Mail address" />
           </div>
-          <span></span>
+
+          <div id="signup-links">
+            <Link to="">Back</Link>
+            <Link to="">Login</Link>
+          </div>
           <span></span>
         </section>
       </form>

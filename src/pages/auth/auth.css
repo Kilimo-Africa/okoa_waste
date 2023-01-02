@@ -132,12 +132,12 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 #device-auth > * {
   background-color: #d8ffc0;
-  width: 40%;
+  width: 45%;
   color: #172e08;
   height: 60%;
   border-radius: 8vw;
@@ -195,4 +195,27 @@ input:focus {
   justify-content: center;
   text-align: center;
   font-size: 1.5vw;
+}
+
+#signup-links {
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#signup-links > * {
+  width: 40%;
+  display: flex;
+  color: #172e08;
+  text-decoration: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #d8ffc0;
+  font-size: 1.5vw;
+  height: 60%;
+  border-radius: 8vw;
 }
