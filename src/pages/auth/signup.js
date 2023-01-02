@@ -53,12 +53,13 @@ export default function Signup() {
             <input type="text" placeholder="Confirm Password" />
           </div>
 
+          <div id="signup-button">
+            <button type="submit">Join Okoa</button>
+          </div>
+
           <div id="signup-links">
             <Link to="">Back</Link>
             <Link to="">Login</Link>
-          </div>
-          <div id="signup-button">
-            <button type="submit">Join Okoa</button>
           </div>
         </section>
       </form>
