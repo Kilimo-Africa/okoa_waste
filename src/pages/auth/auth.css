@@ -149,13 +149,51 @@
 }
 
 #roles-divs {
-  height: 20%;
+  height: 15%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
+#role-desc {
+  font-size: 1.5vw;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#roles {
+  width: 100%;
+  height: 50%;
+  font-size: 1.5vw;
+  border: thin solid #172e08;
+  color: #172e08;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#roles:focus {
+  outline: none;
+}
+
+option {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+option:focus {
+  outline: none;
+}
 #signup-names {
   height: 15%;
   display: flex;
