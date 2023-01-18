@@ -8,12 +8,15 @@ export default function Navbar() {
         <span id="logo-title">Okoa Organics</span>
         <span id="logo-phrase">COLLECT SORT DECOMPOSE</span>
       </Link>
-      <div>
+      <div id="nav-info">
         <Link to="/services">Services</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact Us</Link>
       </div>
-      <div></div>
+
+      <div id="auth-login">
+        <Link to="/login">Login</Link>
+      </div>
     </nav>
   );
 }
