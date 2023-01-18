@@ -2,11 +2,11 @@
 /* color: #d8ffc0; */
 
 
-.form-main *{
-border:  thin solid  #172e08 ;
+.form-main * {
+  border: thin solid #172e08;
 }
 
-.form-main{
+.form-main {
   width: 100%;
   height: 45vw;
   display: flex;
@@ -16,8 +16,8 @@ border:  thin solid  #172e08 ;
 }
 
 
-.form-main> *{
-  border:  thin solid  #172e08 ;
+.form-main>* {
+  border: thin solid #172e08;
   width: 40%;
   height: 100%;
   display: flex;
@@ -27,10 +27,13 @@ border:  thin solid  #172e08 ;
 
 }
 
-.form-image{
+.form-image {}
 
+.form-container {}
 
-}
-
-.form-container{
+.form-container-items {
+  width: 80%;
+  height: 7%;
+  margin-top: .2vw;
+  margin-bottom: .2vw;
 }

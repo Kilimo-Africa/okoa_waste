@@ -66,7 +66,7 @@ nav>#logo {
 nav #nav-info {
   width: 50%;
   height: 50%;
-  border: thin solid #172e08;
+  /* border: thin solid #172e08; */
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;

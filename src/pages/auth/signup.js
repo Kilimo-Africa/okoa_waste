@@ -27,7 +27,12 @@ export default function Signup() {
   return (
     <main className="form-main">
       <div className="form-image"></div>
-      <div className="form-container"></div>
+      <div className="form-container">
+        <span className="form-container-items"></span>
+        <span className="form-container-items"></span>
+        <span className="form-container-items"></span>
+        <span className="form-container-items"></span>
+      </div>
     </main>
   );
 }
