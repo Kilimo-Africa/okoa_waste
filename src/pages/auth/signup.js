@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import VagetablaImage from "../images/vegetable.jpg";
 import "./auth.css";
 
 export default function Signup() {
@@ -26,16 +27,18 @@ export default function Signup() {
 
   return (
     <main className="form-main">
-      <div className="form-image"></div>
+      <div className="form-image">
+        {/* <img src={VagetablaImage} alt="Vegetable" /> */}
+      </div>
       <div className="form-container">
         <span className="form-container-items" id="google-signup">
-          Sign Up with Google
+          Continue with Google
         </span>
         <span className="form-container-items" id="facebook-signup">
-          Sign Up with Facebook
+          Continue with Facebook
         </span>
         <span className="form-container-items" id="email-signup">
-          Sign Up with Email
+          Continue with Email
         </span>
         <span className="form-container-items"></span>
       </div>
