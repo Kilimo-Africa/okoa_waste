@@ -46,7 +46,6 @@
   background-color: #4285F4;
   border: thin solid #4285F4;
   color: white;
-  /* padding: 12px 24px; */
   border-radius: .3vw;
   border: none;
   font-size: 1.3vw;
@@ -61,7 +60,6 @@
   background-color: #4267B2;
   border: thin solid #4267B2;
   color: white;
-  /* padding: 12px 24px; */
   border-radius: .3vw;
   text-decoration: none;
   font-size: 1.3vw;
@@ -70,4 +68,14 @@
 
 #facebook-signup:hover {
   background-color: #3551a5;
+}
+
+#email-signup {
+  background-color: #172e08;
+  border: thin solid #4267B2;
+  color: white;
+  border-radius: .3vw;
+  text-decoration: none;
+  font-size: 1.3vw;
+  cursor: pointer;
 }
