@@ -31,7 +31,9 @@ export default function Signup() {
         <span className="form-container-items" id="google-signup">
           Sign Up with Google
         </span>
-        <span className="form-container-items"></span>
+        <span className="form-container-items" id="facebook-signup">
+          Sign Up with Facebook
+        </span>
         <span className="form-container-items"></span>
         <span className="form-container-items"></span>
       </div>

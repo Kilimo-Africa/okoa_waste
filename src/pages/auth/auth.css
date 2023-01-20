@@ -44,6 +44,7 @@
 
 #google-signup {
   background-color: #4285F4;
+  border: thin solid #4285F4;
   color: white;
   /* padding: 12px 24px; */
   border-radius: .3vw;
@@ -54,4 +55,19 @@
 
 #google-signup:hover {
   background-color: #357ae8;
+}
+
+#facebook-signup {
+  background-color: #4267B2;
+  border: thin solid #4267B2;
+  color: white;
+  /* padding: 12px 24px; */
+  border-radius: .3vw;
+  text-decoration: none;
+  font-size: 1.3vw;
+  cursor: pointer;
+}
+
+#facebook-signup:hover {
+  background-color: #3551a5;
 }
