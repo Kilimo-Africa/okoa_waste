@@ -28,7 +28,9 @@ export default function Signup() {
     <main className="form-main">
       <div className="form-image"></div>
       <div className="form-container">
-        <span className="form-container-items"></span>
+        <span className="form-container-items" id="google-signup">
+          Sign Up with Google
+        </span>
         <span className="form-container-items"></span>
         <span className="form-container-items"></span>
         <span className="form-container-items"></span>
