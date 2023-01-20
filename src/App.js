@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Signup from "./pages/auth/signup";
 import Login from "./pages/auth/login";
 import Footer from "./pages/Footer";
+import Reset from "./pages/auth/Reset";
 
 function App() {
   return (
