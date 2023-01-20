@@ -15,6 +15,11 @@ function App() {
           <Route path="/" element={<Landing />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/auth">
+            <Route path="signup" element={<Signup />} />
+            <Route path="login" element={<Login />} />
+            <Route path="reset" element={<Reset />} />
+          </Route>
         </Routes>
         <Footer />
       </BrowserRouter>

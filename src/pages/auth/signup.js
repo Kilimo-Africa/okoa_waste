@@ -1,7 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { useState } from "react";
-import VagetablaImage from "../images/vegetable.jpg";
+// import { Link } from "react-router-dom";
+// import { useState } from "react";
 import "./auth.css";
 
 export default function Signup() {
