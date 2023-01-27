@@ -96,18 +96,6 @@ nav #nav-info>* {
   color: #172e08;
 }
 
-
-
-footer {
-  width: 100%;
-  height: 20vw;
-  border: thin solid #172e08;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
 #logo>* {
   height: 50%;
   width: 100%;
@@ -175,10 +163,13 @@ header a {
 
 
 footer {
+  width: 100%;
+  height: 25vw;
+  border: thin solid #172e08;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 
 }
 
@@ -187,13 +178,34 @@ footer * {
   border: thin solid;
 }
 
-
 footer>* {
-  width: 20%;
-  height: 90%;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 
+}
+
+
+.footer-1 {
+  height: 21vw;
+
+}
+
+.footer-2 {
+  height: 4vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-2 p {
+  font-size: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
