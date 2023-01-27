@@ -172,3 +172,28 @@ header a {
   border: double #172e08 0.5vw;
   background-color: #d8ffc0;
 }
+
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+
+footer * {
+  border: thin solid;
+}
+
+
+footer>* {
+  width: 20%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+}
