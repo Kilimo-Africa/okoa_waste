@@ -27,9 +27,9 @@
 
 }
 
-.form-image {}
+/* .form-image {}
 
-.form-container {}
+.form-container {} */
 
 .form-container-items {
   width: 80%;
@@ -49,4 +49,22 @@
 #started-email{
   background-color: #172e08;
   color: #d8ffc0;
+}
+
+#google-signup {
+  justify-content: space-evenly;
+  background-color: #4285f4;
+  color: #ffffff;
+  border: none;
+  font-size: 1.3vw;
+  cursor: pointer;
+}
+
+#google-signup img {
+  height: 70%;
+  /* margin-right: 10px; */
+}
+
+#google-signup:hover {
+  background-color: #357ae8;
 }

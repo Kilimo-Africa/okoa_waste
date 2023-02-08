@@ -32,8 +32,6 @@ export default function Signup() {
           <img
             src="https://developers.google.com/identity/images/g-logo.png"
             alt="Google logo"
-            width="20"
-            height="20"
           />
           Sign up with Google
         </span>
