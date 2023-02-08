@@ -1,13 +1,14 @@
 import "./auth.css";
+import vegetables from "../images/vegetables1.jpg";
 
 export default function SignupEmail() {
   return (
     <main className="form-main">
       <div className="form-image">
-        
+        <img src={vegetables} alt="vegetables" />
       </div>
       <div className="form-container">
-      <h3>Signup with Email</h3>
+        <h3>Signup with Email</h3>
         <input
           type="text"
           placeholder="Enter your E-mail"
@@ -24,7 +25,7 @@ export default function SignupEmail() {
           className="email-inputs"
         />
         <button type="submit" className="email-input-submit">
-            Join Okoa
+          Join Okoa
         </button>
       </div>
     </main>
