@@ -6,7 +6,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: space-betwe; */
 }
 
 .services * {
@@ -19,7 +18,6 @@
 }
 
 #services-waste-management {
-  /* display: none; */
   height: 60vw;
   width: 100%;
 }
@@ -65,4 +63,13 @@
 #services-food-market {
   width: 100%;
   height: 40vw;
+}
+
+#services-farming-solutions {
+  height: 40vw;
+  width: 100%;
+}
+
+#farming-solutions-container{
+    
 }

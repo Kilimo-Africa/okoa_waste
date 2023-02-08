@@ -89,10 +89,20 @@ export default function Services() {
         <div id="food-market-container"></div>
       </section>
 
-      <section
-        id="services-farming-solutions"
-        className="services-containers"
-      ></section>
+      <section id="services-farming-solutions" className="services-containers">
+        <h2 className="services-header">Sustainable farming solutions</h2>
+        <p className="services-paragraph">
+          At Okoa Organics, we distribute fresh, healthy food directly from
+          farmers to consumers and also provide compost from our solid waste
+          management efforts. We work to reduce food waste and promote
+          sustainable food systems, while also supporting small-scale farmers.
+          Additionally, by creating compost from our waste management, we strive
+          to reduce the environmental impact of waste and promote a healthier
+          planet. Join us in our mission to create a more sustainable world, one
+          meal and one compost pile at a time!
+        </p>
+        <div id="farming-solutions-container"></div>
+      </section>
 
       <section></section>
     </main>
