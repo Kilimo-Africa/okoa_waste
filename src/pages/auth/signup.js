@@ -44,7 +44,11 @@ export default function Signup() {
           Sign up with Facebook
         </span>
 
-        <span className="form-container-items"></span>
+        <span class="form-container-items" id="apple-signup">
+          <img src="https://www.apple.com/favicon.ico" alt="Apple logo" />
+          Sign up with Apple
+        </span>
+        
         <Link className="form-container-items" id="started-email">
           Get started with Email
         </Link>
