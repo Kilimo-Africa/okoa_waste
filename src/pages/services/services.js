@@ -10,7 +10,7 @@ import Paper from "../images/paper.jpg";
 export default function Services() {
   return (
     <main className="services">
-      <section id="solutions">
+      <section id="solutions" className="services-containers">
         <div id="heading">
           <span id="title">We serve everyone</span>
           <span id="word">
@@ -60,6 +60,23 @@ export default function Services() {
           </div>
         </div>
       </section>
+
+      <section
+        id="services-waste-management"
+        className="services-containers"
+      ></section>
+
+      <section
+        id="services-food-market"
+        className="services-containers"
+      ></section>
+
+      <section
+        id="services-farming-solutions"
+        className="services-containers"
+      ></section>
+
+      <section></section>
     </main>
   );
 }
