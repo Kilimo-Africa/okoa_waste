@@ -49,33 +49,6 @@ export default function Services() {
               Distributing recycleable waste to partners.
             </span>
           </div>
-
-          {/*
-          <div>
-            <span id="image">
-              <img src={Fashion} alt="agric" />
-            </span>
-            <span id="title">Fashion</span>
-            <span id="content">
-              Contributing to the industry by providing raw materials
-            </span>
-          </div>
-          <div>
-            <span id="image">
-              <img src={Paper} alt="agric" />
-            </span>
-            <span id="title">Paper</span>
-            <span id="content">Providing pulp for leading publishers.</span>
-          </div>
-          <div>
-            <span id="image">
-              <img src={Steel} alt="agric" />
-            </span>
-            <span id="title">Steel</span>
-            <span id="content">
-              Building Africa by converting some of your waste into steel.
-            </span>
-          </div> */}
         </div>
       </section>
 
@@ -91,6 +64,7 @@ export default function Services() {
           dirty work!
         </p>
         <div id="services-waste-management-container"></div>
+
         <div className="services-buttons">
           <button>
             <p>Partner with us</p>
