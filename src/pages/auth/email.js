@@ -3,7 +3,9 @@ import "./auth.css";
 export default function SignupEmail() {
   return (
     <main className="form-main">
-      <div className="form-image"></div>
+      <div className="form-image">
+        
+      </div>
       <div className="form-container">
       <h3>Signup with Email</h3>
         <input
