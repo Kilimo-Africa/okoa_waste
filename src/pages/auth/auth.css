@@ -1,6 +1,6 @@
 /* background-color: #172e08; */
 /* color: #d8ffc0; */
-/* 
+/*
 
 .form-main * {
   border: thin solid #172e08;
@@ -34,8 +34,8 @@
 .form-container-items {
   width: 80%;
   height: 7%;
-  margin-top: .2vw;
-  margin-bottom: .2vw;
+  margin-top: .5vw;
+  margin-bottom: .5vw;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -62,7 +62,6 @@
 
 #google-signup img {
   height: 70%;
-  /* margin-right: 10px; */
 }
 
 #google-signup:hover {
