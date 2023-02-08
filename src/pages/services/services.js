@@ -1,11 +1,6 @@
 import "./services.css";
 
-// import Recycle from "../images/recycle.svg";
-// import Recycle1 from "../images/Recycle.svg";
-import Steel from "../images/steel.jpg";
-import Fashion from "../images/fashion.jpg";
 import Agriculture from "../images/agriculture.jpg";
-import Paper from "../images/paper.jpg";
 
 export default function Services() {
   return (
