@@ -38,7 +38,9 @@
   height: 100%;
 }
 
-.form-container {}
+.form-container {
+
+}
 
 .form-container-items {
   width: 80%;
@@ -137,6 +139,7 @@
 input:focus{
   outline: none;
 }
+
 .email-input-submit{
   width: 80%;
   height: 3vw;
@@ -150,3 +153,5 @@ input:focus{
   align-items: center;
   justify-content: center;
 }
+
+

@@ -91,6 +91,14 @@ export default function Services() {
           dirty work!
         </p>
         <div id="services-waste-management-container"></div>
+        <div className="services-buttons">
+          <button>
+            <p>Partner with us</p>
+            <img src="#" alt="" />
+          </button>
+          <button></button>
+          <button></button>
+        </div>
       </section>
 
       <section id="services-food-market" className="services-containers">
