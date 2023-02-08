@@ -25,12 +25,35 @@ export default function Services() {
             <span id="image">
               <img src={Agriculture} alt="agric" />
             </span>
-            <span id="title">Agriculture</span>
-            <span id="content">
-              Producing manure for millions of farmers in Africa
-            </span>
+            <span id="title">Farming</span>
+            <span id="content">Producing compost for farmers.</span>
           </div>
 
+          <div>
+            <span id="image">
+              <img src={Agriculture} alt="agric" />
+            </span>
+            <span id="title">Waste Collection</span>
+            <span id="content">Collecting solid waste.</span>
+          </div>
+
+          <div>
+            <span id="image">
+              <img src={Agriculture} alt="agric" />
+            </span>
+            <span id="title">Food</span>
+            <span id="content">Distributing organic food</span>
+          </div>
+
+          <div>
+            <span id="image">
+              <img src={Agriculture} alt="agric" />
+            </span>
+            <span id="title">Recycling</span>
+            <span id="content">
+              Distributing recycleable waste to partners.
+            </span>
+          </div>
 
           {/*
           <div>
