@@ -4,25 +4,6 @@ import { useState } from "react";
 import "./auth.css";
 
 export default function Signup() {
-  // function handleSubmit(e) {
-  //   e.preventDefault();
-  //   let user = {
-  //     role_id: role,
-  //     email,
-  //     password,
-  //     password_confirmation: password_c,
-  //   };
-
-  //   fetch("http://localhost:3000/users", {
-  //     method: "POST",
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //     },
-  //     body: JSON.stringify(user),
-  //   })
-  //     .then((res) => res.json())
-  //     .then((data) => console.log(data));
-  // }
 
   return (
     <main className="form-main">
@@ -48,7 +29,7 @@ export default function Signup() {
           <img src="https://www.apple.com/favicon.ico" alt="Apple logo" />
           Sign up with Apple
         </span>
-        
+
         <Link className="form-container-items" id="started-email">
           Get started with Email
         </Link>
