@@ -15,8 +15,7 @@
   justify-content: center;
 }
 
-
-.form-main>* {
+.form-main > * {
   border: thin solid #172e08;
   width: 40%;
   height: 100%;
@@ -24,7 +23,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
 
 /* .form-image {}
@@ -34,8 +32,8 @@
 .form-container-items {
   width: 80%;
   height: 7%;
-  margin-top: .5vw;
-  margin-bottom: .5vw;
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -43,10 +41,10 @@
   font-size: 1.3vw;
   text-decoration: none;
   color: #172e08;
-  border-radius: .5vw;
+  border-radius: 0.5vw;
 }
 
-#started-email{
+#started-email {
   background-color: #172e08;
   color: #d8ffc0;
 }
@@ -67,7 +65,6 @@
 #google-signup:hover {
   background-color: #357ae8;
 }
-
 
 #facebook-signup {
   justify-content: space-evenly;
@@ -93,17 +90,53 @@
   border: none;
   font-size: 1.3vw;
   cursor: pointer;
-  }
+}
 
-  #apple-signup img {
+#apple-signup img {
   height: 70%;
   /* margin-right: 10px; */
-  }
+}
 
-  #apple-signup:hover {
+#apple-signup:hover {
   background-color: #f2f2f2;
-  }
+}
 
 /* SIGNUP WITH EMAIL PAGE */
 
+.email-inputs {
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
+  font-size: 1.3vw;
+  width: 80%;
+  height: 3vw;
+  border-radius: 0.5vw;
+  border: none;
 
+}
+
+.form-container h3{
+  font-size: 1.5vw;
+}
+.form-container input{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input:focus{
+  outline: none;
+}
+.email-input-submit{
+  width: 80%;
+  height: 3vw;
+  background-color: #172e08;
+  color: #d8ffc0;
+  font-size: 1.3vw;
+  border: none;
+  border-radius: .5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
