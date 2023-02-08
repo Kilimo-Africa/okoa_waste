@@ -94,7 +94,25 @@ export default function Services() {
           delicious, healthy food. So, come join us in our mission to create a
           healthier and more sustainable world, one meal at a time!
         </p>
+
         <div id="food-market-container"></div>
+
+        <div className="services-buttons">
+          <button>
+            <p>Partner with us</p>
+            <img src="#" alt="" />
+          </button>
+
+          <button>
+            <p>Partner with us</p>
+            <img src="#" alt="" />
+          </button>
+
+          <button>
+            <p>Partner with us</p>
+            <img src="#" alt="" />
+          </button>
+        </div>
       </section>
 
       <section id="services-farming-solutions" className="services-containers">
@@ -110,6 +128,23 @@ export default function Services() {
           meal and one compost pile at a time!
         </p>
         <div id="farming-solutions-container"></div>
+
+        <div className="services-buttons">
+          <button>
+            <p>Partner with us</p>
+            <img src="#" alt="" />
+          </button>
+
+          <button>
+            <p>Partner with us</p>
+            <img src="#" alt="" />
+          </button>
+
+          <button>
+            <p>Partner with us</p>
+            <img src="#" alt="" />
+          </button>
+        </div>
       </section>
 
       <section></section>
