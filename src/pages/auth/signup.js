@@ -38,7 +38,7 @@ export default function Signup() {
 
         <span class="form-container-items" id="facebook-signup">
           <img
-            src="https://cdn.icon-icons.com/icons2/1378/PNG/512/3721672-facebook_108064.png"
+            src="https://www.facebook.com/images/fb_icon_325x325.png"
             alt="Facebook logo"
           />
           Sign up with Facebook

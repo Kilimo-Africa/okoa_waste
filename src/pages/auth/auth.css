@@ -68,3 +68,21 @@
 #google-signup:hover {
   background-color: #357ae8;
 }
+
+
+#facebook-signup {
+  justify-content: space-evenly;
+  background-color: #1877f2;
+  color: #ffffff;
+  border: none;
+  font-size: 1.3vw;
+  cursor: pointer;
+}
+
+#facebook-signup img {
+  height: 70%;
+}
+
+#facebook-signup:hover {
+  background-color: #1360d4;
+}
