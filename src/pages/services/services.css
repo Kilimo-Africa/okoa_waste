@@ -3,4 +3,13 @@
 
 .services{
     border: thin solid #172e08;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-betwe; */
+}
+
+.services *{
+    font-size: 1.3vw;
+    border: thin solid #172e08;
 }
