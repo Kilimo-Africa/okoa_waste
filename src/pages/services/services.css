@@ -15,6 +15,7 @@
 .services > * {
   margin-bottom: 1vw;
   border: thin solid #172e08;
+  height: max-content;
 }
 
 #services-waste-management {
@@ -52,6 +53,7 @@
 }
 
 #services-waste-management-container {
+    height: 30vw;
   height: 60%;
   width: 100%;
 }
@@ -62,15 +64,21 @@
 
 #services-food-market {
   width: 100%;
-  height: 40vw;
+  height:max-content;
+}
+
+#food-market-container{
+    height: 30vw;
 }
 
 #services-farming-solutions {
-  height: 40vw;
+  height: max-content;
   width: 100%;
 }
 
 #farming-solutions-container {
+    height: 30vw;
+    width: 100%;
 }
 
 .services-buttons {
