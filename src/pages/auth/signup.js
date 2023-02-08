@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useState } from "react";
+// import { useState } from "react";
 import "./auth.css";
 
 export default function Signup() {
@@ -30,7 +30,7 @@ export default function Signup() {
           Sign up with Apple
         </span>
 
-        <Link className="form-container-items" id="started-email">
+        <Link className="form-container-items" id="started-email" to="/signup/email">
           Get started with Email
         </Link>
       </div>
