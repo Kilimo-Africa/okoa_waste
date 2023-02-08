@@ -61,10 +61,19 @@ export default function Services() {
         </div>
       </section>
 
-      <section
-        id="services-waste-management"
-        className="services-containers"
-      ></section>
+      <section id="services-waste-management" className="services-containers">
+        <h2>Solid waste management</h2>
+        <p>
+          At Okoa Organics, we like to turn trash into treasure (and compost).
+          We offer solid waste management services that are safe, efficient, and
+          actually pretty fun, if we do say so ourselves. Our goal is to reduce
+          waste's environmental impact through composting, recycling, and energy
+          recovery, all while keeping our clients' garbage out of the landfill
+          and their spirits high. So sit back, relax, and let us handle the
+          dirty work!
+        </p>
+        <div id="services-waste-management-container"></div>
+      </section>
 
       <section
         id="services-food-market"

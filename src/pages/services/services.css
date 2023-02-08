@@ -20,7 +20,24 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-
 }
 
+.services-containers > h2 {
+    width: 100%;
+    height: 3vw;
+    border: thin solid #172e08;
+}
+.services-containers > p {
+    height: max-content;
+    width: 100%;
+    padding-top: .3vw;
+    padding-bottom: .3vw;
+}
 
+#services-waste-management {
+  height: 30vw;
+  width: 100%;
+}
+
+#services-waste-management-container {
+}
