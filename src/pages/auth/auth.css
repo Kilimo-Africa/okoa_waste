@@ -86,3 +86,22 @@
 #facebook-signup:hover {
   background-color: #1360d4;
 }
+
+#apple-signup {
+  justify-content: space-evenly;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  font-size: 1.3vw;
+  cursor: pointer;
+  }
+
+  #apple-signup img {
+  height: 70%;
+  /* margin-right: 10px; */
+  }
+
+  #apple-signup:hover {
+  background-color: #f2f2f2;
+  }
+
