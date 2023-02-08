@@ -5,7 +5,7 @@ export default function SignupEmail() {
   return (
     <main className="form-main">
       <div className="form-image">
-        <img src={vegetables} alt="vegetables" />
+        {/* <img src={vegetables} alt="vegetables" /> */}
       </div>
       <div className="form-container">
         <h3>Signup with Email</h3>
