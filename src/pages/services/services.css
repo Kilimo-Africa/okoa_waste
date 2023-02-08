@@ -1,0 +1,132 @@
+/* background-color: #172e08; */
+/* color: #d8ffc0; */
+
+.services {
+  border: thin solid #172e08;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services * {
+  font-size: 1.3vw;
+}
+
+.services > * {
+  margin-bottom: 1vw;
+  border: thin solid #172e08;
+  height: max-content;
+}
+
+#services-waste-management {
+  height: 40vw;
+  width: 100%;
+}
+
+.services-header {
+  width: 100%;
+  height: 3vw;
+  font-size: 2vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#services-waste-management * {
+  /* border: thin solid #172e08; */
+}
+
+.services-containers > p {
+  height: max-content;
+  color: grey;
+  font-size: 1.5vw;
+  text-align: center;
+  width: 100%;
+  padding-top: 0.3vw;
+  padding-bottom: 0.3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#services-waste-management-container {
+    height: 30vw;
+  height: 60%;
+  width: 100%;
+}
+
+#services-food-market > * {
+  border: thin solid #172e08;
+}
+
+#services-food-market {
+  width: 100%;
+  height:max-content;
+}
+
+#food-market-container{
+    height: 30vw;
+}
+
+#services-farming-solutions {
+  height: max-content;
+  width: 100%;
+}
+
+#farming-solutions-container {
+    height: 30vw;
+    width: 100%;
+}
+
+.services-buttons {
+  width: 100%;
+  height: 4vw;
+  border: thin solid #172e08;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-buttons > button {
+  width: 20%;
+  height: 90%;
+  border: thin solid #172e08;
+  border-radius: 5vw;
+  background-color: #172e08;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.services-buttons > button > p {
+  width: 55%;
+  height: 90%;
+}
+
+.services-buttons > button > p {
+  color: #d8ffc0;
+  font-size: 1.3vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.3vw;
+}
+.services-buttons > button > img {
+  height: 3.2vw;
+  width: 3.2vw;
+  border-radius: 50%;
+  background-color: #d8ffc0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.3vw;
+}
