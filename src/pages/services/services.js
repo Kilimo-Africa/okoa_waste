@@ -72,7 +72,8 @@ export default function Services() {
           and their spirits high. So sit back, relax, and let us handle the
           dirty work!
         </p>
-        <div id="services-waste-management-container"></div>
+        <div id="services-waste-management-container">
+        </div>
       </section>
 
       <section
