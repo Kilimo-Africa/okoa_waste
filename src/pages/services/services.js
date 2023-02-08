@@ -96,8 +96,16 @@ export default function Services() {
             <p>Partner with us</p>
             <img src="#" alt="" />
           </button>
-          <button></button>
-          <button></button>
+
+          <button>
+            <p>Partner with us</p>
+            <img src="#" alt="" />
+          </button>
+
+          <button>
+            <p>Partner with us</p>
+            <img src="#" alt="" />
+          </button>
         </div>
       </section>
 
