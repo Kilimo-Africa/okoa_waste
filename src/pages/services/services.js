@@ -31,6 +31,8 @@ export default function Services() {
             </span>
           </div>
 
+
+          {/*
           <div>
             <span id="image">
               <img src={Fashion} alt="agric" />
@@ -40,7 +42,6 @@ export default function Services() {
               Contributing to the industry by providing raw materials
             </span>
           </div>
-
           <div>
             <span id="image">
               <img src={Paper} alt="agric" />
@@ -48,7 +49,6 @@ export default function Services() {
             <span id="title">Paper</span>
             <span id="content">Providing pulp for leading publishers.</span>
           </div>
-
           <div>
             <span id="image">
               <img src={Steel} alt="agric" />
@@ -57,7 +57,7 @@ export default function Services() {
             <span id="content">
               Building Africa by converting some of your waste into steel.
             </span>
-          </div>
+          </div> */}
         </div>
       </section>
 
