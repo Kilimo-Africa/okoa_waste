@@ -28,7 +28,7 @@ export default function Signup() {
     <main className="form-main">
       <div className="form-image"></div>
       <div className="form-container">
-        <span className="form-container-items">
+        <span className="form-container-items" id="google-signup">
           <img
             src="https://developers.google.com/identity/images/g-logo.png"
             alt="Google logo"
