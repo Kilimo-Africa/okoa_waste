@@ -16,7 +16,6 @@
 }
 
 .form-main > * {
-  border: thin solid #172e08;
   width: 40%;
   height: 100%;
   display: flex;
