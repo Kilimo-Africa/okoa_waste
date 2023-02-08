@@ -35,7 +35,15 @@ export default function Signup() {
           />
           Sign up with Google
         </span>
-        <span className="form-container-items"></span>
+
+        <span class="form-container-items" id="facebook-signup">
+          <img
+            src="https://cdn.icon-icons.com/icons2/1378/PNG/512/3721672-facebook_108064.png"
+            alt="Facebook logo"
+          />
+          Sign up with Facebook
+        </span>
+
         <span className="form-container-items"></span>
         <Link className="form-container-items" id="started-email">
           Get started with Email
