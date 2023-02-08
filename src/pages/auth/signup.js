@@ -31,7 +31,9 @@ export default function Signup() {
         <span className="form-container-items"></span>
         <span className="form-container-items"></span>
         <span className="form-container-items"></span>
-        <span className="form-container-items"></span>
+        <Link className="form-container-items" id="started-email">
+          Get started with Email
+        </Link>
       </div>
     </main>
   );
