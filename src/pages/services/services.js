@@ -62,8 +62,8 @@ export default function Services() {
       </section>
 
       <section id="services-waste-management" className="services-containers">
-        <h2>Solid waste management</h2>
-        <p>
+        <h2 className="services-header">Solid waste management</h2>
+        <p className="services-paragraph">
           At Okoa Organics, we like to turn trash into treasure (and compost).
           We offer solid waste management services that are safe, efficient, and
           actually pretty fun, if we do say so ourselves. Our goal is to reduce
@@ -76,8 +76,17 @@ export default function Services() {
       </section>
 
       <section id="services-food-market" className="services-containers">
-        <h2>Food Distribution</h2>
-        <p></p>
+        <h2 className="services-header">Food Distribution</h2>
+        <p className="services-paragraph">
+          At Okoa Organics, we strive to promote healthy living through local,
+          sustainable food systems. We distribute food directly from farmers to
+          consumers, cutting out the middlemen and bringing fresh, nutritious
+          produce straight to your door. By doing so, we support small-scale
+          farmers, reduce food waste, and provide our customers with access to
+          delicious, healthy food. So, come join us in our mission to create a
+          healthier and more sustainable world, one meal at a time!
+        </p>
+        <div id="food-market-container"></div>
       </section>
 
       <section
